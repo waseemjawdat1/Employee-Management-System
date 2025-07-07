@@ -47,13 +47,17 @@ The application supports reading employee data from a structured text file using
 ## 📄 File Format (Input Data)
 
 Each line in the file must follow one of these formats, depending on the employee type:
-Hourly Employee,<FirstName>,<LastName>,<DateOfBirth>,<Street-City-Country>,<PhoneNumber>,<Email>,<Nationality>,<Designation>,<Education>,<PhotoPath>,<Hours>,<Rate>
 
-Salaried Employee,<FirstName>,<LastName>,<DateOfBirth>,<Street-City-Country>,<PhoneNumber>,<Email>,<Nationality>,<Designation>,<Education>,<PhotoPath>,<AnnualSalary>
+```
+Hourly Employee,<FirstName>,<LastName>,<DOB>,<Street-City-Country>,<Phone>,<Email>,<Nationality>,<Designation>,<Education>,<PhotoPath>,<Hours>,<Rate>
 
-Commession Employee,<FirstName>,<LastName>,<DateOfBirth>,<Street-City-Country>,<PhoneNumber>,<Email>,<Nationality>,<Designation>,<Education>,<PhotoPath>,<MonthlySales>
+Salaried Employee,<FirstName>,<LastName>,<DOB>,<Street-City-Country>,<Phone>,<Email>,<Nationality>,<Designation>,<Education>,<PhotoPath>,<AnnualSalary>
 
-Employee Based Commession,<FirstName>,<LastName>,<DateOfBirth>,<Street-City-Country>,<PhoneNumber>,<Email>,<Nationality>,<Designation>,<Education>,<PhotoPath>,<MonthlySales>,<BaseSalary>
+Commession Employee,<FirstName>,<LastName>,<DOB>,<Street-City-Country>,<Phone>,<Email>,<Nationality>,<Designation>,<Education>,<PhotoPath>,<MonthlySales>
+
+Employee Based Commession,<FirstName>,<LastName>,<DOB>,<Street-City-Country>,<Phone>,<Email>,<Nationality>,<Designation>,<Education>,<PhotoPath>,<MonthlySales>,<BaseSalary>
+```
+
 
 > ⚠️ Ensure that paths are valid, emails and phone numbers follow the required format, and all fields are properly filled.
 
@@ -67,5 +71,5 @@ Employee Based Commession,<FirstName>,<LastName>,<DateOfBirth>,<Street-City-Coun
 
 Waseem Sisan  
 Computer Science Student  
-Birzeit University – Class of 2027
+Birzeit University
 
