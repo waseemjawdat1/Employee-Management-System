@@ -1,0 +1,111 @@
+.menu-bar {
+    -fx-background-color: linear-gradient(to bottom, #e5b8ff, #ffcdb1);
+    -fx-border-width: 0;
+}
+
+.menu {
+    -fx-padding: 5 10;
+}
+
+.menu:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+}
+
+.menu .label {
+    -fx-text-fill: #4a4a4a;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.menu-item {
+    -fx-background-color: white;
+    -fx-padding: 8 24;
+}
+
+.menu-item:hover {
+    -fx-background-color: linear-gradient(to right, #e5b8ff, #ffcdb1);
+}
+
+.menu-item .label {
+    -fx-text-fill: #4a4a4a;
+    -fx-font-size: 13px;
+}
+
+.context-menu {
+    -fx-background-color: white;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-padding: 5;
+}
+.tab-pane {
+    -fx-tab-min-width: 100px;
+    -fx-tab-min-height: 35px;
+    -fx-background-color: transparent;
+}
+
+/* Remove default border */
+.tab-pane *.tab-header-background {
+    -fx-background-color: linear-gradient(to right, #e5b8ff, #ffcdb1);
+    -fx-border-width: 0;
+}
+
+.tab-pane .tab-header-area {
+    -fx-padding: 5 5 0 5;
+}
+
+.tab {
+    -fx-background-color: rgba(255, 255, 255, 0.7);
+    -fx-background-radius: 8 8 0 0;
+    -fx-border-width: 0;
+    -fx-padding: 5 15;
+}
+
+.tab:selected {
+    -fx-background-color: white;
+    -fx-background-radius: 8 8 0 0;
+    -fx-border-width: 0;
+}
+
+.tab:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.9);
+}
+
+.tab-label {
+    -fx-text-fill: #4a4a4a;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* Content area */
+.tab-pane .tab-content-area {
+    -fx-background-color: white;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 1px;
+    -fx-border-radius: 0 4px 4px 4px;
+}
+
+/* Remove focus highlight */
+.tab-pane:focused > .tab-header-area > .headers-region > .tab:selected .focus-indicator {
+    -fx-border-width: 0;
+}
+
+/* Close button styling (if needed) */
+.tab .tab-close-button {
+    -fx-background-color: #4a4a4a;
+    -fx-shape: "M 0,0 H1 L 4,3 L 7,0 H8 V1 L 5,4 L 8,7 V8 H7 L 4,5 L 1,8 H0 V7 L 3,4 L 0,1 Z";
+}
+
+.tab .tab-close-button:hover {
+    -fx-background-color: #ff6b6b;
+}
+
+.root {
+    -fx-background-color: #f4f4f4;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #444;
+}
